@@ -46,20 +46,20 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Methods
-   private func startAction() {
+    private func startAction() {
         colorRed.alpha = 1.0
         colorYellow.alpha = 0.5
         colorGreen.alpha = 0.5
         currentState = 1
     }
-
-   private func nextYellow() {
+    
+    private func nextYellow() {
         colorRed.alpha = 0.5
         colorYellow.alpha = 1.0
         colorGreen.alpha = 0.5
         currentState = 2
     }
-
+    
     private func nextGreen() {
         colorRed.alpha = 0.5
         colorYellow.alpha = 0.5
