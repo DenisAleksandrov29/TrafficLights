@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         actionButton.layer.cornerRadius = 10
         
     }
+    
     // MARK: - Colors
     @IBAction func startAndNextTapped(_ sender: UIButton) {
         
